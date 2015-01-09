@@ -76,7 +76,7 @@ h1{
 .tag_box a {
   padding: 3px 6px;
   margin: 2px;
-  background: rgb(222,106,115);
+  background: rgb(255,111,48);
   color: #fff;
   border-radius: 5px;
   text-decoration: none;
@@ -87,7 +87,7 @@ h1{
   font-size: 0.8em; }
 
 .tag_box a:hover {
-  background-color: #e5e5e5; }
+  background-color: #55c7f9; }
 
 .tag_box a.active {
   background: #57A957;
