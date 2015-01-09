@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GitHub基础入门
-category : 技术分享
+category : 杂谈
 tagline: "Supporting tagline"
 tags : jekyll, github
 published: false
