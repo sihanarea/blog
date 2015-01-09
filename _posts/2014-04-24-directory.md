@@ -2,7 +2,7 @@
 layout: post
 title: "jekyll加载图片的路径问题"
 description: ""
-category: 技术分享
+category: 杂谈
 tags: [路径]
 ---
 {% include JB/setup %}

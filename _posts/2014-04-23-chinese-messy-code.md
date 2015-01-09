@@ -2,7 +2,7 @@
 layout: post
 title: "解决invalid byte sequence in GBK"
 description: ""
-category: 技术分享
+category: 杂谈
 tags: [gbk,乱码]
 ---
 {% include JB/setup %}
