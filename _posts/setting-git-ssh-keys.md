@@ -1,4 +1,13 @@
-##关于git ssh keys的设置
+---
+layout: post
+title: "关于git ssh keys的设置"
+description: ""
+category: 杂谈
+tags: [install jekyll]
+---
+{% include JB/setup %}
+# 关于git ssh keys的设置
+---
 
 之前在开始学习使用git的时候，每次都用的https的方式来操作git，那样的话提交都需要输入一次密码，效率很低，现在总结一下怎么生成ssh key，用这种方式就无需每次都要输入密码了。
 
@@ -7,3 +16,7 @@
 * 第二步 打开git bash，在里面输入`ssh-keygen -t rsa -C "358379803@qq.com"`这里替换成你自己的git注册邮箱，然后连续按三个回车。这样子你的c盘`C:\Users\你的计算机名`里就生成一个`.ssh`的文件夹，里面有个两个文件，分别是`id_rsa`和`id_rsa.pub`,用记事本类工具打开`id_rsa.pub`这个文件，全选复制。
 
 * 第三步 打开github网站登入你的账号，点击右上角齿轮按钮，进入设置页面，再点击左侧的`SSH keys`然后点击右边的`ADD SSH key`下面会出现一个表单，这里的title随便填，自己记得住就行，下面的Key就是第二步复制的`id_rsa.pub`里的内容，填上，确定，就ok了。下次就可以用SSH的方式来推送你的文件了。不需要每次输入密码那么麻烦了。
+
+
+
+
